@@ -1,2 +1,6 @@
 <h1><%= @post.title %></h1>
 <p><%= @post.description %></p>
+<p>id: <%= @post.id %></p>
+
+<%= link_to 'edit', edit_post_path %>
+<%= link_to 'back', posts_path %>
